@@ -29,7 +29,7 @@ The rule-groups configured in the policy are the following:
 
 The template deploys two instances in `spoke-vpc-a` and `spoke-vpc-b` in the `protected` subnets that you can use to test east-west connectivity (and north-south).
 
-By default, the templates deploy in the `eu-west-1` AWS Region. 
+By default, the templates deploy in the `ap-southeast-2` AWS Region. 
 If you wish to deploy in any other AWS Region, edit the corresponding setting in the [provider.tf](provider.tf) file.
 
 ### How-to
